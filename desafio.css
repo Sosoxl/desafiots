@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 50px;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 1440px;
+    Height: 48px;
+    background-color: #F0F3F3;
+    border-radius: 4px;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+}
+body{
+    max-width: 1440px;
+    height: 1718px;
+    background-color: #ffffff;
+    margin: auto;
+}
+#PacotesCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.inputnome{
+    width: 589px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+.inputdata{
+    width: 293px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+.cardsPacote{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.alinhar{
+    display: flex;
+    justify-content: space-between;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Descricao{
+    Width: 555px;
+    Height: 161px;
+    margin: 10px;
+}
+.Cadastrar{
+    display: flex;
+    justify-content: center;
+    background-color: #8458ff;
+    align-items: center;
+    width: 77px;
+    height: 40px;
+    border-radius: 4px;
+    border: #8458ff;
+    color: white;
+}
+.descricao_do_pacote{
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB5BE;
+    width: 550px;    
+    height: 185px
+}
+.PacoteX, 
+.PacoteY,
+.PacoteZ{
+    margin: auto;
+    margin-top: 45px;
+    padding: 30px;
+    width: 1189px;
+    height: 265px;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+}
+.NomePacote{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+.texto{
+    color: #6C757D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.DataViagem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+}
+.editar{
+    padding: 10px 16px;
+    width: 78px;
+    height: 39px;
+    background: #FFC107;
+    color: white;
+    border-radius: 4px;
+    border: #FFC107;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.limpar{
+    padding: 10px 16px;
+    width: 78px;
+    height: 39px;
+    background: #DC3545;
+    color: white;
+    border-radius: 4px;
+    border: #DC3545;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer{
+    width: 1440px;
+    height: 250px;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F6511D;
+
+}
+.SyncTur{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Linha{
+    display: flex;
+    height: 175px;
+    border-right: 2px solid white;
+}
+.Informacoes{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}

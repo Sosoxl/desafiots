@@ -1,0 +1,195 @@
+<!DOCTYPE html
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <header>
+        <h3>SyncTur</h3>
+    </header>
+
+    <main>
+
+        <section id="PacotesCadastro"> 
+
+            <div class="titulo">
+                <h2>Cadastrar Pacotes</h2>
+            </div>
+
+            <br><br>
+            <div class="alinhar">
+                <div class="cards">
+                    <div class="part1">
+                        <div class="PartPacote">
+                            <h4>Pacote</h4>
+
+                            <br><br>
+            
+                            <label for="nome"></label>
+                            <input class="inputnome" type="text" id="nome" name="nome" placeholder="Digite nome completo">
+                                
+                        </div>        
+
+                        <div class="cardsPacote">
+
+                            <div class="CardPacote">
+
+                                <h4>Status do Pacote</h4>
+
+                                <br>
+
+                                <input type="checkbox" class="Checkbox" name="ativo" id="ativo" value="Ativo">
+                                <label for="ativo">Ativo</label>
+
+                                <br>
+
+                                <input type="checkbox" class="Checkbox" name="inativo" id="inativo" value="inativo">
+                                <label for="inativo">Inativo</label>  
+                            </div>
+
+                            <div class="CardData">
+
+                                <h4>Data da Viagem</h4>
+                                        
+                                <br>
+
+                                <label for="data"></label>
+                                <input type="text" class="inputdata" id="data" name="data_viagem" placeholder="Data">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            
+                <div class="Descricao">
+
+                    <h4>Descrição</h4>
+
+                    <br><br>
+
+                    <textarea class="descricao_do_pacote">Descrição do pacote</textarea>
+
+                </div>
+
+            </div>
+           
+
+            <br>
+
+            <button onclick="Cadastrar()" class="Cadastrar">Cadastrar</button>
+
+            <br><br>
+
+            <div class="lista_pacote">
+                
+            </div>
+        </section>
+<!-- 
+        <div class="pacoteX">
+
+            <h3 class="NomePacote ">PacoteX</h3>
+
+            <br>
+
+            <p class="texto">This is a wider card with supporting text below as a natural lead-in to additional content.
+            This content
+            is a little bit longer.</p>
+
+            <br>
+
+            <p class="DataViagem" >Data da viagem: 07/07/23</p>
+
+            <br>
+
+            <div class="botoes">
+
+                <button disabled class="Editar">editar</button>
+
+                <button type="reset" onclick="parte_dois()" class="limpar" onclick = "excluir">Excluir</button>
+
+            </div>
+
+        </div>
+
+        <div class="pacoteY">
+
+            <h3 class="NomePacote">Pacote Y</h3>
+
+            <br>
+
+            <p class="texto">This is a wider card with supporting text below as a natural lead-in to additional content.
+            This content
+            is a little bit longer.</p>
+
+            <br>
+
+            <p class="DataViagem">Data da viagem: 07/07/23</p>
+
+            <br>
+
+            <div class="botoes">
+
+                <button disabled class="editar">Editar</button>
+
+                <button type="reset" onclick="parte_dois()" class="limpar">Excluir</button>
+
+            </div>
+
+        </div>
+
+        <div class="pacoteZ">
+
+            <br>
+
+            <h3 class="NomePacote">Pacote Z</h3>
+
+            <p id="texto">This is a wider card with supporting text below as a natural lead-in to additional content.
+            This content
+            is a little bit longer.</p>
+
+            <br>
+
+            <p id="DataViagem">Data da viagem: 07/07/23</p>
+
+            <br><br>
+
+            <div class="botoes">
+
+                <button disabled class="editar">Editar</button>
+
+                <button type="reset" onclick="parte_dois()" class="limpar">Excluir</button>
+
+            </div>
+
+        </div> -->
+
+    </main>
+        <footer>
+            <div class="footer">
+
+                <h2 class="SyncTur">SyncTur</h2>
+
+                <div class="Linha"></div> 
+
+                <div class="Informacoes">
+                    <p>
+                        Company Inc., 8901 Marmora Road, Glasgow, D04 89GR <br> <br>
+                        Call us now toll free: (800)2345-6789 <br> <br>
+                        Customer support: support@demolink.org <br> <br>
+                        Skype: sample-username
+                    </p>
+
+                </div>
+
+            </div>
+        </footer>
+
+    <script src="./desafio.js"></script>
+
+</body>
+</html>
